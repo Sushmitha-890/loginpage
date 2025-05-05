@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: aqua;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: navy;
+      color: white;
+      font-size: 30px;
+    }
+    .form-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: calc(100vh - 80px); /* Full screen minus header height */
+    }
+    form {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: center;
+      height: 400px;
+      width: 400px;
+      background-color: purple;
+    }
+    input {
+      display: block;
+      margin: 0 auto;
+      padding: 8px;
+      width: 80%;
+    }
+    button {
+      color: white;
+      background-color: blue;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    label {
+      color: chartreuse;
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 50px;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    WELCOME TO PESCE
+  </header>
+
+  <div class="form-container">
+    <form>
+      <h3>Login Page</h3>
+      <label for="email">Email:</label>
+      <input type="text" name="email" required><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" name="password" required><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
